@@ -917,7 +917,7 @@ async function loginAdminFromPage() {
 
   try {
     // 1. Fallback akun administrator utama permanen
-    if (user === "administrator" && pass === "passwordadmin123") {
+    if (user === "administrator" && pass === "admin123") {
       currentUser = { username: "administrator", role: "administrator", name: "Super Admin" };
       isAdmin = true;
       localStorage.setItem("currentUser", JSON.stringify(currentUser));
